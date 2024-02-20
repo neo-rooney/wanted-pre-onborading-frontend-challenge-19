@@ -26,7 +26,7 @@
 
 - [x] storybook(UI 컴포넌트 테스트)
 - [x] jest(단위 테스트)
-- [ ] scss
+- [x] scss
 - [ ] cypress(E2E 테스트)
 
 ### 과제 제출

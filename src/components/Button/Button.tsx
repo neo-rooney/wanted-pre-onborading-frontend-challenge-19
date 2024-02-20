@@ -1,7 +1,12 @@
 import styles from "./Button.module.scss";
+import { IButtonProps } from "./Button.types";
 
-const Button = () => {
-  return <div className={styles.container}>Button</div>;
+const Button = ({ children, onClick }: IButtonProps) => {
+  return (
+    <div className={styles.container} onClick={onClick}>
+      {children}
+    </div>
+  );
 };
 
 export default Button;
