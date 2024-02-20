@@ -25,7 +25,8 @@
 ### 추가 설정
 
 - [x] storybook(UI 컴포넌트 테스트)
-- [ ] jest(단위 테스트)
+- [x] jest(단위 테스트)
+- [ ] scss
 - [ ] cypress(E2E 테스트)
 
 ### 과제 제출
