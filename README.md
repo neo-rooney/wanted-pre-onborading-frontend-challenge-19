@@ -2,7 +2,7 @@
 
 ---
 
-## 요구사항
+## 과제 요구사항
 
 ### 프로젝트 공통
 
@@ -22,9 +22,15 @@
 
 ---
 
+### 추가 설정
+
+- [x] storybook(UI 컴포넌트 테스트)
+- [ ] jest(단위 테스트)
+- [ ] cypress(E2E 테스트)
+
 ### 과제 제출
 
 - 제출 마감일: 3월 1일
-- [ ] 과제물은 main 브랜치
-- [ ] Settings -> Codespaces -> Configuration Select branch를 main 으로 하고 제출
+- [x] 과제물은 main 브랜치
+- [x] Settings -> Codespaces -> Configuration Select branch를 main 으로 하고 제출
 - [ ] 과제를 제출하는 방법은 본인이 작업한 github repository 주소를 issues에 올리기
