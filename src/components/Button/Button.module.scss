@@ -1,4 +1,10 @@
-.container {
+.button {
   background: #000;
-  color: red;
+  &.contained {
+    background: red;
+  }
+
+  &.outlined {
+    background: gold;
+  }
 }
