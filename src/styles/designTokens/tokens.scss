@@ -1,0 +1,160 @@
+$slate-50: #f8fafc;
+$slate-100: #f1f5f9;
+$slate-200: #cbd5e1;
+$slate-400: #94a3b8;
+$slate-500: #64748b;
+$slate-600: #475569;
+$slate-700: #334155;
+$slate-800: #1e293b;
+$slate-900: #0f172a;
+$slate-950: #020617;
+$fontfamilies-inter: Inter;
+$fontweights-inter-0: 800;
+$fontweights-inter-1: 600;
+$fontweights-inter-2: 400;
+$fontweights-inter-3: 500;
+$fontweights-inter-4: italic;
+$lineheights-0: 48px;
+$lineheights-1: 36px;
+$lineheights-2: 32px;
+$lineheights-3: 28px;
+$lineheights-4: 24px;
+$lineheights-5: 20px;
+$lineheights-6: 14px;
+$fontsize-0: 12px;
+$fontsize-1: 14px;
+$fontsize-2: 16px;
+$fontsize-3: 18px;
+$fontsize-4: 20px;
+$fontsize-5: 24px;
+$fontsize-6: 30px;
+$fontsize-7: 48px;
+$letterspacing-0: -1.2%;
+$letterspacing-1: -0.75%;
+$letterspacing-2: -0.6%;
+$letterspacing-3: -0.5%;
+$letterspacing-4: 0%;
+$paragraphspacing-0: 0;
+$textdecoration-none: none;
+$textcase-none: none;
+@mixin h1 {
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.2%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin h2 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.75%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin h3 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin h4 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.5%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin large {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -1.2%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin body {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin body-medium {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+@mixin small {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin subtle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin subtle-medium {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
+@mixin p-ui {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -1.2%;
+  paragraph-spacing: 0;
+  text-decoration: none;
+  text-case: none;
+}
+
