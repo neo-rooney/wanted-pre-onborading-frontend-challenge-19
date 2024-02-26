@@ -1,2 +1,11 @@
 @import "./reset.scss";
 @import "./designTokens/tokens.scss";
+
+html {
+  height: 100dvh;
+}
+
+body,
+#root {
+  height: 100%;
+}
