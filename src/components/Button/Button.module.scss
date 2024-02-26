@@ -1,10 +1,40 @@
 .button {
-  background: #000;
+  background: none;
+  border: none;
+  @include body-medium;
+  border-radius: 6px;
+  cursor: pointer;
   &.contained {
-    background: red;
+    background-color: $slate-950;
+    color: $white;
+    &:hover {
+      background-color: $slate-700;
+    }
   }
 
   &.outlined {
-    background: gold;
+    border: 1px solid $slate-700;
+    color: $slate-950;
+    &:hover {
+      background-color: $slate-100;
+    }
+  }
+
+  &.text {
+    &:hover {
+      background-color: $slate-100;
+    }
+  }
+
+  &.large {
+    padding: 8px 16px;
+  }
+
+  &.medium {
+    padding: 6px 12px;
+  }
+
+  &.small {
+    padding: 4px 8px;
   }
 }

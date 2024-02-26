@@ -7,12 +7,18 @@ const Button = ({
   varient = "contained",
   size = "medium",
 }: IButtonProps) => {
-  console.log(varient);
-  console.log(size);
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    }
+  };
   return (
-    <div className={`${styles.button} ${styles[varient]}`} onClick={onClick}>
+    <button
+      className={`${styles.button} ${styles[varient]} ${styles[size]}`}
+      onClick={handleClick}
+    >
       {children}
-    </div>
+    </button>
   );
 };
 
