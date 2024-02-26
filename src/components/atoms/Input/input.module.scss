@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  .label {
+    @include subtle;
+    color: $slate-900;
+  }
+
+  input {
+    border: none;
+    border: 1px solid $slate-200;
+    border-radius: 6px;
+    padding: 8px 12px;
+    @include p-ui;
+    box-sizing: border-box;
+    height: 40px;
+    &::placeholder {
+      color: $slate-400;
+    }
+  }
+
+  .helperText {
+    @include subtle;
+    color: $slate-500;
+  }
+}
