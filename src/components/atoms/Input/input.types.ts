@@ -3,4 +3,5 @@ export interface IInputProps {
   placeholder?: string;
   helperText?: string;
   onChange?: (value: string) => void;
+  value?: string;
 }
