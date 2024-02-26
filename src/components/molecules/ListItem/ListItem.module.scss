@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  border: 1px solid $slate-900;
+  border-radius: 8px;
+  padding: 6px 8px;
+  @include subtle-medium;
+}
+
+.leftItems {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
